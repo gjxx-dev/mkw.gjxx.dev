@@ -1,0 +1,35 @@
+# robots.txt for MKW 免费建站 - https://mkw.gjxx.dev/
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+
+# Sitemaps
+Sitemap: https://mkw.gjxx.dev/sitemap.xml
+
+# Bing specific
+User-agent: bingbot
+Allow: /
+Crawl-delay: 0
+
+# Baidu specific
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Block unnecessary crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
